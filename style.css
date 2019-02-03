@@ -15,8 +15,8 @@ header , footer {
 
 #logo-navbar {
     display: flex;
-    justify-content: space-around;
-
+    justify-content: space-between;
+    
 }
 
 
