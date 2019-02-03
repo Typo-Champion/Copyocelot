@@ -1,0 +1,9 @@
+.grid {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: repeat(3, 100px)
+}
+
+header, footer {
+    grid-column: 1 / 4;
+}
