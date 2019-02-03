@@ -9,55 +9,52 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     
 </head>
+
 <body>
-        <!-- wrapping container to maintain default style -->
-    <div id="grid">
-        <!-- flexbox container for navbar -->
-  <header id="logo-navbar">
-    <div>The Atlantic</div>
-    <div>Popular</div>
-    <div>Latest</div>
-    <div>Sections</div>
-    <div>Magazine</div>
-    <div>Subscribe</div>
-  </header>
-        <!-- wrapping higlights main content container -->
-  <div id="main-container">
-        <!-- left section of highlights -->
-    <div id="left-section">
-        <!-- created container for divs -->
-        <div class="connor"><img src="./images/conorfried.jpg">
-            <div>AARON BERNSTEIN / REUTERS</div>
-            <div>Why Raldivh Northam Should Resign</div>
-            <div>CONOR FRIEDERSDORF</div>
-        </div>
-        <div class="alexfrench"><img src="./images/alexfrench.jpg">
-            <div>ILLUSTRATION WG500 LE CAER / INVISION</div>
-            <div>'Nobody Is Going To Believe You'</div>
-            <div>ALEX FRENCH AND MAXIMILLIAN OTTER</div>
-        </div>
-    </div>
-     <div id="middle-section">
-         <!-- created container for divs -->
-        <div class="puddin"><img src="./images/puddin.jpg">
-            <div>SERGEI CHIKIRKOV / REUTERS</div>
-            <div>Russia Is Attacking the U.S. System From Within</div>
-            <div>A new filing by Special Counsel Robert Mueller shows how Russia uses the federal courts to go after its adversaries.</div>
-            <div>NATASHA BERTRAND</div>
-        </div>
-     <div id="right-section">
-         <div class="adamharris"><img src="./images/adamharris.jpg"></div>
-            <div>Will Anyone Save Black Colleges?</div>
-            
-     </div>
-    </div>
+    <header>
+        <div>The Atlantic</div>
+        <div>Popular</div>
+        <div>Latest</div>
+        <div>Sections</div>
+        <div>Magazine</div>
+        <div>More</div>
+        <div>Subscribe</div>
+        <div><button>search</button></div>
+    </header>
+   <div class="grid-container">
+       <!-- main content wrapper -->
+       
+       <div class="grid-left">
+           <!-- creates wrapper for left column -->
+            <div class="img-left-col"><img src="./images/conorfried.jpg" alt="conor" height="100px"></div>
+            <div class="source">AARON BERNSTEIN / REUTERS</div>
+            <div class="title">Why Ralph Northam Should Resign</div>
+            <div class="author">CONOR FRIEDERSDORF</div>
+            <div><img src="./images/alexfrench.jpg" alt="alex" height="100px"></div>
+            <div class="source">ILLUSTRATION BY WG600 VIANNEY LE CAER</div>
+            <div class="title">'Nobody Is Going to Believe You'</div>
+            <div class="author">ALEX FRENCH</div>
+       </div>
+       <!-- creates wrapper for mid column -->
+       <div class="grid-mid">
+            <div><img src="./images/puddin.jpg"></div>
+            <div class="main-title">Russia Is Attacking the U.S. System From Within</div>
+            <div class="main-about">A new filing by Special Counsel Robert Mueller shows how Russia uses the federal courts to go after its adversaries.</div>
+            <div class="author">NATASHA BERTRAND</div>
+       </div>
+       <div>
+           <div>Will Anyone Save Black Colleges</div>
+       </div>
+       
 
-  </div>
-    
-      
+        </div>
+        
 
-  <footer>
-    Footer
-  </footer>
+
+   </div>
+   <footer>
+       footer
+   </footer>
 </body>
+
 </html>

@@ -1,54 +1,68 @@
-
-#grid {
-    display: grid;
-    grid-template-rows: 20px auto 20px;
-    grid-gap: 1em;
-    align
-
+.grid-container {
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    padding-inline-end: 10em;
+    padding-inline-start: 10em;
 }
 
 header , footer {
-    grid-column: 1 / 4;
-    text-align: center;
+    display: flex;
+    align-content: center;
     color: white;
     background-color: black;
     grid-gap: 1rem;
 }
 
-#logo-navbar {
-    display: flex;
+header > div:nth-child(1) {
+    margin-right: 90px;
+}
+
+header {
+    padding-top: 8px;
+    padding-bottom: 8px;
     justify-content: space-between;
-    
 }
 
-#logo-navbar > div:nth-child(1) {
-    width: 500px;
+.grid-container > div {
+    background: #eee;
+    padding: 1em;
 }
 
-
-#main-container {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    grid-gap: 1em;
-
- }
-
-
-#left-section {
-     display: grid;
-     grid-gap: 1em;
-     width: 1fr 50px;
-     height: 1fr 50px;
-     
+.grid-container > div:nth-child(1) {
+    background: gray;
 }
 
-#middle-section {
-     display: grid;
-     flex-grow: 1;
+.grid-container > div:nth-child(3) {
+    background: green;
 }
 
-#right-section {
-    display: grid;
-    grid-area: 1 / 2;
+.grid-container > div:nth-child(2) {
+    text-align: center;
+}
+
+.author {
+    font-size: 0.75rem;
+    line-height: 1.125;
+    letter-spacing: 0.0625rem;
+}
+
+.title {
+    font-size: 1.25rem;
+    line-height: 1.125;
+}
+
+.source {
+    font-size: 0.5rem;
+    text-align: right;
+}
+
+.main-title {
+    padding: 16px;
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.main-about {
+    font-size: 1rem;
     
 }
