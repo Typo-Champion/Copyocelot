@@ -1,9 +1,11 @@
 #grid {
     display: grid;
-    grid-template-columns: 100px auto 100px;
-    grid-template-rows: repeat(3, 100px)
+    grid-template-rows: 100px auto 100px;
 }
 
-header, footer {
+header , footer {
     grid-column: 1 / 4;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
