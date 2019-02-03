@@ -1,8 +1,9 @@
 
 #grid {
     display: grid;
-    grid-template-rows: 20px auto 100px;
+    grid-template-rows: 20px auto 20px;
     grid-gap: 1em;
+    align
 
 }
 
@@ -11,6 +12,7 @@ header , footer {
     text-align: center;
     color: white;
     background-color: black;
+    grid-gap: 1rem;
 }
 
 #logo-navbar {
@@ -19,6 +21,9 @@ header , footer {
     
 }
 
+#logo-navbar > div:nth-child(1) {
+    width: 500px;
+}
 
 
 #main-container {
@@ -29,13 +34,21 @@ header , footer {
  }
 
 
- #left-section {
+#left-section {
      display: grid;
      grid-gap: 1em;
-
+     width: 1fr 50px;
+     height: 1fr 50px;
      
 }
 
- #middle-section {
+#middle-section {
      display: grid;
+     flex-grow: 1;
+}
+
+#right-section {
+    display: grid;
+    grid-area: 1 / 2;
+    
 }
