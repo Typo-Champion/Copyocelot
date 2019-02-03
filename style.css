@@ -15,12 +15,16 @@ header , footer {
 
 header > div:nth-child(1) {
     margin-right: 90px;
+    font-size: 1rem;
+    padding-inline-start: 100px;
 }
 
 header {
     padding-top: 8px;
     padding-bottom: 8px;
     justify-content: space-between;
+    font-size: 0.5rem;
+    padding-inline-end: 100px;
 }
 
 .grid-container > div {
@@ -32,22 +36,22 @@ header {
     background: gray;
 }
 
-.grid-container > div:nth-child(3) {
-    background: green;
-}
-
 .grid-container > div:nth-child(2) {
     text-align: center;
 }
 
+.grid-container > div:nth-child(3) {
+    background: lightblue;
+}
+
 .author {
-    font-size: 0.75rem;
+    font-size: 0.35rem;
     line-height: 1.125;
     letter-spacing: 0.0625rem;
 }
 
 .title {
-    font-size: 1.25rem;
+    font-size: 1.25rem; 
     line-height: 1.125;
 }
 
@@ -64,5 +68,6 @@ header {
 
 .main-about {
     font-size: 1rem;
+    padding-bottom: 10px;
     
 }
