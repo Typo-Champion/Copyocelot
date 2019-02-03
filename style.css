@@ -1,6 +1,11 @@
+@media only screen and (max-width: 600px) {
+    body
+}
 #grid {
     display: grid;
-    grid-template-rows: 100px auto 100px;
+    grid-template-rows: 20px auto 100px;
+    grid-gap: 1em;
+
 }
 
 header , footer {
@@ -12,8 +17,18 @@ header , footer {
 
 #main-container {
     display: grid;
-    grid-columns: 1fr 2fr 1fr;
-    
+    grid-template-columns: 1fr auto 1fr;
 
-    }
+ }
+
+
+ #left-section {
+     display: grid;
+     grid-gap: 1em;
 }
+
+ #middle-section {
+     display: grid;
+
+     
+ }
