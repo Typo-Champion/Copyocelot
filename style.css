@@ -76,7 +76,9 @@ header {
     padding-bottom: 10px;
 }
 
-footer {
-    
+#about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 100px;
 
 }
