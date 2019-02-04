@@ -9,7 +9,7 @@
 
 header , footer {
     display: flex;
-    align-content: stretch;
+    align-content: flex-end;
     flex-grow: 1;
     color: white;
     background-color: black;
@@ -20,7 +20,7 @@ header > div:nth-child(1) {
     margin-right: 90px;
     font-size: 1rem;
     padding-inline-start: 100px;
-    font-family: 
+   
 }
 
 header {
@@ -77,7 +77,7 @@ header {
     padding-bottom: 10px;
 }
 
-.right-sidebar > img {
+footer {
     
 
 }
