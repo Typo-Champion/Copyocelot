@@ -5,12 +5,12 @@
     grid-template-columns: 1fr 4fr 1fr;
     padding-inline-end: 10em;
     padding-inline-start: 10em;
+    margin: 0 auto;
 }
 
 header , footer {
     display: flex;
-    align-content: flex-end;
-    flex-grow: 1;
+    margin: 0 auto;
     color: white;
     background-color: black;
     grid-gap: 1rem;
@@ -33,7 +33,6 @@ header {
 }
 
 .grid-container > div {
-    background: ;
     padding: 1em;
 }
 
